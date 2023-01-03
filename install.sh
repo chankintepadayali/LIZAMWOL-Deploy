@@ -53,7 +53,7 @@ install_packages(){
             $SUDO $INSTALL $package
         done
     else
-        echo "Secktor could not install dependencies,exiting process."
+        echo "LIZAMWOL could not install dependencies,exiting process."
         exit
     fi
 }
@@ -71,9 +71,9 @@ install_packages
 clear
 figlet Secktor
 echo "Cloning Secktor git repo..."
-read -p "Enter Your github username: " secktor
-git clone https://github.com/"${secktor}"/Secktor-Md
-cd Secktor-Md
+read -p "Enter Your github username: " chankintepadayali
+git clone https://github.com/"${LIZAMWOL}"/LIZAMWOL-MD
+cd LIZAMWOL-MD
 clear
 echo "Installing required packages,it will take time..."
 pauseagain() {
@@ -88,7 +88,7 @@ clear
 echo "Installed packages.."
 echo "Starting Bot Server..."
 clear
-figlet Secktor
+figlet LIZAMWOL
 read -p "Enter Your Owner Number: " owner
 echo "OWNER_NUMBER=${owner}" >> config.env
 #--------------------------------------------
