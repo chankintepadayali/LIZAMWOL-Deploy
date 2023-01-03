@@ -69,7 +69,7 @@ getinfo
 envinfo
 install_packages
 clear
-figlet Secktor
+figlet LIZAMWOL-MD
 echo "Cloning Secktor git repo..."
 read -p "Enter Your github username: " chankintepadayali
 git clone https://github.com/"${LIZAMWOL}"/LIZAMWOL-MD
