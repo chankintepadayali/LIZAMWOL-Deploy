@@ -70,7 +70,7 @@ envinfo
 install_packages
 clear
 figlet LIZAMWOL-MD
-echo "Cloning Secktor git repo..."
+echo "Cloning LIZAMWOL git repo..."
 read -p "Enter Your github username: " chankintepadayali
 git clone https://github.com/"${LIZAMWOL}"/LIZAMWOL-MD
 cd LIZAMWOL-MD
@@ -104,5 +104,5 @@ read -n1 -r -p "Press any key to continue..." key
 clear
 figlet SpeedY
 echo "TheSpeedY"
-echo "To stop bot: ctrl+c then npm stop secktor"
+echo "To stop bot: ctrl+c then npm stop lizamwol"
 npm start
